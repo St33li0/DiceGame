@@ -35,6 +35,7 @@ namespace DiceGame
 
         public void choice()
         {//Allows user to pick what dice they would like to roll and outputs the integer value of faces as "dChoice" as a public variable
+            Console.Clear();
             Console.WriteLine("Which Dice would you like to roll?");
             Console.WriteLine();
             foreach (string face in faces)
