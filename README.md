@@ -10,7 +10,6 @@ Option to reroll OR pick another dice
 ## Known Issues
 Any invalid input will cause an OutOfRange exception
 > Create code to handle exceptions
-> All expected responses are accounted for already
 
 ## Planned for Release Version 2.0
 ADD - Option to roll multiple of the same dice at once
