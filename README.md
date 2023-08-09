@@ -1,16 +1,15 @@
 # DiceGame
 Welcome! This piece of code was a project started during my Software Development course and is considered my first 'finished' script. Please enjoy.
-Please also report any found bugs and give suggestions in the issues tab.
+<br />Please also report any found bugs and give suggestions in the issues tab.
+<br /><br />
+This branch of DiceGame is specifically for source control of development of version 2 of DiceGame.
+<br />How many times do I want to say of haha
 
-# Release Version 1.5
-## Features
-Choice of dice from D4 to D20
-Option to reroll OR pick another dice
-
-## Known Issues
-Any invalid input will cause an OutOfRange exception
-> Create code to handle exceptions
-
-## Planned for Release Version 2.0
-ADD - Option to roll multiple of the same dice at once
-CHANGE - choice() to be more efficient
+## Planned
+> Rewrite from near scratch incorperating best practices and increasing readability
+> Choice of Dice Type
+> Choice of Number of Rolls
+> Option to roll again/switch dice
+> Build CLI based interface to seamlessly display text, options etc.
+> Functions for help within the program
+> Ascii Art
