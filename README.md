@@ -6,10 +6,10 @@ This branch of DiceGame is specifically for source control of development of ver
 <br />How many times do I want to say of haha
 
 ## Planned
-> Rewrite from near scratch incorperating best practices and increasing readability
-> Choice of Dice Type
-> Choice of Number of Rolls
-> Option to roll again/switch dice
-> Build CLI based interface to seamlessly display text, options etc.
-> Functions for help within the program
-> Ascii Art
+> Rewrite from near scratch incorperating best practices and increasing readability<br />
+> Choice of Dice Type<br />
+> Choice of Number of Rolls<br />
+> Option to roll again/switch dice<br />
+> Build CLI based interface to seamlessly display text, options etc.<br />
+> Functions for help within the program<br />
+> Ascii Art<br />
