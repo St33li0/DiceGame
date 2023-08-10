@@ -4,4 +4,5 @@ using DiceGame;
 using System.Xml.Serialization;
 
 Compute compute = new Compute();
-compute.play();
+Menu menu = new Menu();
+menu.MainMenu();
