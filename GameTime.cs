@@ -10,9 +10,32 @@ namespace DiceGame
     {
         int gameTime;
         bool gameOver = false;
+
         public GameTime(int tickIncrement, bool isDead) {
             gameTime += tickIncrement;
             gameOver = isDead;
         }
+
+        public void SetGameTime(bool setORget, int gameCyclesIncrement)
+        {
+            gameTime += gameCyclesIncrement;
+        }
+
+        public int GetGameTime() 
+        {
+            return gameTime;
+        }
+
+        public void SetAlive(bool isDead)
+        {
+            gameOver = isDead;
+        }
+
+        public bool GetAlive()
+        {
+            return gameOver;
+        }
+
+
     }
 }
