@@ -8,6 +8,7 @@ using System.Xml.Serialization;
 
 namespace DiceGame
 {
+
     internal class Compute
     {
         public int dChoice = 0;
@@ -23,6 +24,8 @@ namespace DiceGame
         Random rand = new();
         string picked = "null";
         public int output = 0;
+
+        
 
         public void answer()
         {

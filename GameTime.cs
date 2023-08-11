@@ -16,9 +16,9 @@ namespace DiceGame
             gameOver = isDead;
         }
 
-        public void SetGameTime(bool setORget, int gameCyclesIncrement)
+        public void SetGameTime(bool setORget, int tickIncrement)
         {
-            gameTime += gameCyclesIncrement;
+            gameTime += tickIncrement;
         }
 
         public int GetGameTime() 
