@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DiceGame.Application;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
@@ -367,6 +368,11 @@ namespace DiceGame
                 defaultForegroundColour = foreGroundColour;
                 defaultBackgroundColour = backGroundColour;
             }
+
+        internal void SetWriteColor(bool v, ConsoleColor green)
+        {
+            throw new NotImplementedException();
+        }
         //
         //
     }
