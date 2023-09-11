@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DiceGame.Application;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;

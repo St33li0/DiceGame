@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiceGame
+namespace DiceGame.Application
 {
-    internal class DiceMath
+    public class DiceMath
     {
         public DiceMath() {
 

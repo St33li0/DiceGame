@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DiceGame
+namespace DiceGame.Application
 {
-    internal class GameTime
+    public class GameTime
     {
         int gameTime;
         bool gameOver = false;
