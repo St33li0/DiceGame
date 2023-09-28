@@ -6,9 +6,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace DiceGame
+namespace DiceGame.Application
 {
-    internal class Compute
+
+    public class Compute
     {
         public int dChoice = 0;
         public string ans = "";
@@ -23,6 +24,8 @@ namespace DiceGame
         Random rand = new();
         string picked = "null";
         public int output = 0;
+
+        
 
         public void answer()
         {

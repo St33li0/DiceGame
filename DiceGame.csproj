@@ -7,4 +7,14 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="DiceGame.Application\**" />
+    <EmbeddedResource Remove="DiceGame.Application\**" />
+    <None Remove="DiceGame.Application\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="DiceGame.Application\DiceGame.Application.csproj" />
+  </ItemGroup>
+
 </Project>
